@@ -1,0 +1,158 @@
+body{
+    background-color: #004a1f;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+img {
+
+    max-width: 40%;
+    height: auto;
+}
+
+a {
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 1% 2%;
+    font-size: 20px;
+    border-radius: 4px;
+    color: red;
+}
+
+button {
+
+    border: none;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 2%;
+}
+
+
+.container {
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 3%;
+}
+
+.display-flex{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+
+    text-align: center;
+}
+
+.vignette {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+  }
+
+  .no-margin {
+
+    margin: 0%;
+  }
+
+  .bg-darker {
+    background-color: #003c19;
+  }
+
+  .full-size {
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .computer-side{
+
+    margin-right: 1%;
+    padding: 1% 2%;
+    border-radius: 10px;
+  }
+
+  .user-side{
+    margin-left: 1%;
+    padding: 1% 2%;
+    border-radius: 10px;
+  }
+
+  .bold {
+    font-weight:bold;
+  }
+
+  .card-section {
+    text-align: center;
+    background-color: white;
+    margin: 10%;
+    min-height: 30rem;
+    width: auto;
+    border-radius: 5px;
+  }
+
+  .top-container {
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .top-card {
+    display: block;
+  }
+
+  .bottom-card {
+
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .card-icon {
+
+    padding: 4%;
+  }
+
+  .card-number {
+
+    padding: 4%;
+  }
+  
+  .card-image{
+    height: 100%;
+  }
+
+  .card-icon {
+
+    max-height: 100%;
+  }
+
+  .counter {
+
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
