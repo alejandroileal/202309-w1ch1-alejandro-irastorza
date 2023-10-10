@@ -1,85 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="¡Juega cartas online 100% gratis y sin anuncios!">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/style.css">
-    <script src="./scripts/script.js" defer></script>
-    <title>Nuevo Juego</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="¡Juega cartas online 100% gratis y sin anuncios!">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="./scripts/script.js" defer></script>
+  <title>Nuevo Juego</title>
 </head>
+
 <body class="vignette no-margin">
-    <div class="container">
-        <p class="counter bold">Puntaje: <span>0</span></p>
-        <div>
-        <div class="game-board display-flex" id="gameBoard">
-            <div class="computer-side full-size bg-darker">
-                <h2 class="bold">Current card:</h2>
+  <div class="container">
+    <p class="counter bold">Puntaje: <span>0</span></p>
+    <div>
+      <div class="game-board display-flex" id="gameBoard">
+        <div class="computer-side full-size bg-darker">
+          <h2 class="bold">Current card:</h2>
 
-                <div class="card-section">
+          <div class="card-section">
 
-                    <div class="top-card">
-                        <div class="top-container">
+            <div class="top-card">
+              <div class="top-container">
 
-                            <div class="card-icon" id="firstCardIcon">
-                                
-                                Icono aquí
+                <div class="card-icon" id="firstCardIcon">
 
-                            </div>
-
-                            <div class="card-number" id="firstCardNumber">
-                                
-                                Número aquí
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="card-image">
-                                
-                        <p>imagen acá</p>
-                    
-                    </div>
-
-                    <div class="bottom-card">
-
-                        <div class="card-number" id="secondCardNumber">
-                            
-                            Número aquí
-
-                        </div>
-
-                        <div class="card-icon" id="secondCardIcon">
-                            
-                            Icono aquí
-
-                        </div>
-
-
-                    </div>
+                  Icono aquí
 
                 </div>
+
+                <div class="card-number" id="firstCardNumber">
+
+                  Número aquí
+
+                </div>
+              </div>
 
             </div>
-            <div class="user-side full-size bg-darker">
-                <div class="user-top-section">
-                    <div class="player-name"><h2 class="bold">Player:</h2></div>
-                </div>
-                
-                <div class="card-section">
 
-                </div>
+            <div class="card-image">
+
+              <p>imagen acá</p>
 
             </div>
+
+            <div class="bottom-card">
+
+              <div class="card-number" id="secondCardNumber">
+
+                Número aquí
+
+              </div>
+
+              <div class="card-icon" id="secondCardIcon">
+
+                Icono aquí
+
+              </div>
+
+
+            </div>
+
+          </div>
+
         </div>
-        <div class="button">
-            <p>¿Cómo quieres jugar tu turno?</p>
-             <button id="plusCardButton">Mayor</button>
-             <button id="minorCardButton">Menor</button>
+        <div class="user-side full-size bg-darker">
+          <div class="user-top-section">
+            <div class="player-name">
+              <h2 class="bold">Player:</h2>
+            </div>
+          </div>
+
+          <div class="card-section">
+
+          </div>
+
         </div>
+      </div>
+      <div class="button">
+        <p>¿Cómo quieres jugar tu turno?</p>
+        <button id="plusCardButton">Mayor</button>
+        <button id="minorCardButton">Menor</button>
+      </div>
     </div>
-    </div>
+  </div>
 </body>
+
 </html>
