@@ -1,0 +1,16 @@
+{
+  "name": "bootcamp-isdi-coders-madrid",
+  "version": "1.0.0",
+  "description": "Bootcamp de ISDI Coders",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alejandro Irastorza",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  }
+}
